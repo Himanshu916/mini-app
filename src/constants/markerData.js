@@ -1,0 +1,198 @@
+import redPillMarker from "@/assets/images/redPillMarker.png"
+import redPillMarkerRing from "@/assets/images/redpillMarkerRing.png"
+export const markerData = [
+  {
+    //carpathian
+    collection: 5,
+    top: "14%",
+    left: "60%",
+    topH: "19%",
+    leftH: "59%",
+    positions: {
+      xsmall: { top: "18%", left: "60%", topH: "19%", leftH: "59%" },
+      small: { top: "18%", left: "60%", topH: "19%", leftH: "59%" },
+      medium: { top: "17%", left: "60%", topH: "20%", leftH: "58%" },
+      large: { top: "21%", left: "60%", topH: "19%", leftH: "59%" },
+      xlarge: { top: "21%", left: "60%", topH: "19%", leftH: "59%" },
+      xxlarge: { top: "14%", left: "60%", topH: "19%", leftH: "59%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-row",
+  },
+  {
+    //anatolian
+    collection: 6,
+    top: "30%",
+    left: "52%",
+    topH: "42%",
+    leftH: "49.5%",
+    positions: {
+      xsmall: { top: "33%", left: "53%", topH: "42%", leftH: "49.5%" },
+      small: { top: "33%", left: "53%", topH: "42%", leftH: "49.5%" },
+      medium: { top: "33%", left: "53%", topH: "42%", leftH: "50%" },
+      large: { top: "42%", left: "52%", topH: "42%", leftH: "49.5%" },
+      xlarge: { top: "45%", left: "52%", topH: "42%", leftH: "49.5%" },
+      xxlarge: { top: "30%", left: "52%", topH: "42%", leftH: "49.5%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  {
+    //guinea forest
+    collection: 8,
+    top: "32%",
+    left: "43%",
+    topH: "6%",
+    leftH: "20%",
+    positions: {
+      xsmall: { top: "39%", left: "44%", topH: "24%", leftH: "20%" },
+      small: { top: "39%", left: "44%", topH: "24%", leftH: "20%" },
+      medium: { top: "37%", left: "43%", topH: "40%", leftH: "18.5%" },
+      large: { top: "47%", left: "43%", topH: "21%", leftH: "20%" },
+      xlarge: { top: "50%", left: "43%", topH: "24%", leftH: "20%" },
+      xxlarge: { top: "32%", left: "43%", topH: "6%", leftH: "20%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-row-reverse",
+  },
+  {
+    //western ghat
+    collection: 7,
+    top: "32%",
+    left: "61%",
+    topH: "44%",
+    leftH: "59%",
+    positions: {
+      xsmall: { top: "36%", left: "68%", topH: "63%", leftH: "62%" },
+      small: { top: "36%", left: "68%", topH: "44%", leftH: "48%" },
+      medium: { top: "34%", left: "64%", topH: "43%", leftH: "41%" },
+      large: { top: "48%", left: "64%", topH: "61%", leftH: "61%" },
+      xlarge: { top: "51%", left: "64%", topH: "63%", leftH: "62%" },
+      xxlarge: { top: "32%", left: "61%", topH: "44%", leftH: "59%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  {
+    //malay
+    collection: 10,
+    top: "39%",
+    left: "74%",
+    topH: "52%",
+    leftH: "55%",
+    positions: {
+      xsmall: { top: "41%", left: "82%", topH: "71%", leftH: "62%" },
+      small: { top: "39%", left: "90%", topH: "46%", leftH: "68%" },
+      medium: { top: "40%", left: "82%", topH: "49%", leftH: "60%" },
+      large: { top: "51%", left: "82%", topH: "63%", leftH: "62%" },
+      xlarge: { top: "59%", left: "82%", topH: "71%", leftH: "62%" },
+      xxlarge: { top: "39%", left: "74%", topH: "52%", leftH: "55%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  {
+    //mekong
+    collection: 9,
+    top: "35%",
+    left: "67%",
+    topH: "47%",
+    leftH: "65%",
+    positions: {
+      xsmall: { top: "40%", left: "76%", topH: "61%", leftH: "69%" },
+      small: { top: "38%", left: "80%", topH: "45%", leftH: "56%" },
+      medium: { top: "39%", left: "72%", topH: "48%", leftH: "49%" },
+      large: { top: "52%", left: "71%", topH: "61%", leftH: "65%" },
+      xlarge: { top: "55%", left: "71%", topH: "61%", leftH: "69%" },
+      xxlarge: { top: "35%", left: "67%", topH: "47%", leftH: "65%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  {
+    //rocky
+    collection: 3,
+    top: "18%",
+    left: "29%",
+    topH: "23%",
+    leftH: "28%",
+
+    positions: {
+      xsmall: { top: "23%", left: "21%", topH: "25%", leftH: "9%" },
+      small: { top: "23%", left: "11%", topH: "25%", leftH: "9%" },
+      medium: { top: "23%", left: "21%", topH: "26%", leftH: "19%" },
+      large: { top: "28%", left: "23%", topH: "25%", leftH: "30%" },
+      xlarge: { top: "30%", left: "23%", topH: "29%", leftH: "30%" },
+      xxlarge: { top: "24%", left: "23%", topH: "23%", leftH: "30%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-row",
+  },
+  {
+    //sierra
+    collection: 4,
+    top: "38%",
+    left: "26%",
+    topH: "50%",
+    leftH: "24%",
+    positions: {
+      xsmall: { top: "40%", left: "20%", topH: "60%", leftH: "27%" },
+      small: { top: "40%", left: "11%", topH: "47%", leftH: "9%" },
+      medium: { top: "38%", left: "22%", topH: "47%", leftH: "20%" },
+      large: { top: "54%", left: "19%", topH: "52%", leftH: "27%" },
+      xlarge: { top: "56%", left: "19%", topH: "60%", leftH: "27%" },
+      xxlarge: { top: "46%", left: "19%", topH: "50%", leftH: "27%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  {
+    // amazon
+    collection: 1,
+    top: "44%",
+    left: "39%",
+    topH: "52%",
+    leftH: "35%",
+    positions: {
+      xsmall: { top: "48%", left: "37%", topH: "70%", leftH: "37%" },
+      small: { top: "48%", left: "30%", topH: "50%", leftH: "28%" },
+      medium: { top: "47%", left: "35%", topH: "50%", leftH: "33%" },
+      large: { top: "62%", left: "35%", topH: "62%", leftH: "37%" },
+      xlarge: { top: "70%", left: "35%", topH: "70%", leftH: "37%" },
+      xxlarge: { top: "52%", left: "35%", topH: "52%", leftH: "37%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-row",
+  },
+
+  {
+    //andes
+    collection: 2,
+    top: "62%",
+    left: "33%",
+    topH: "56%",
+    leftH: "36%",
+    positions: {
+      xsmall: { top: "60%", left: "29%", topH: "92%", leftH: "37%" },
+      small: { top: "60%", left: "22%", topH: "67%", leftH: "20%" },
+      medium: { top: "59%", left: "27%", topH: "67%", leftH: "24.5%" },
+      large: { top: "84%", left: "29%", topH: "84%", leftH: "37%" },
+      xlarge: { top: "92%", left: "29%", topH: "92%", leftH: "37%" },
+      xxlarge: { top: "72%", left: "29%", topH: "56%", leftH: "37%" },
+    },
+    image: redPillMarker,
+    ring: redPillMarkerRing,
+    direction: "flex-col",
+  },
+  // Add mo
+  // re markers as needed
+]

@@ -1,0 +1,17 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "GP dNFT",
+    "iconUrl": "https://il-fc.vercel.app/capsule.png",
+    "homeUrl": "https://il-fc.vercel.app/",
+    "imageUrl": "https://il-fc.vercel.app/capsule.png",
+    "buttonTitle": "🌱 Mint NFT",
+    "splashImageUrl": "https://il-fc.vercel.app/capsule.png",
+    "splashBackgroundColor": "#002e1a"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExMTQyOTUsInR5cGUiOiJhdXRoIiwia2V5IjoiMHg0NUFCODMzNTIwYzc5N0JmYzQxRGQyNDg3ZTQ5YTFhRjNhMTVEMTREIn0",
+    "payload": "eyJkb21haW4iOiJpbC1mYy52ZXJjZWwuYXBwIn0",
+    "signature": "tEzMxONr1OzJn9t6aFDi9eKecKBHMMuVm4JBXMDlh8liytDVteeJl6wyo5ODBzE2c+bjvCkC9UWFyHZtRpARwxs="
+  }
+}

@@ -1,0 +1,59 @@
+.scrollableCards::-webkit-scrollbar {
+  height: 0px;
+}
+
+.main::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.main::-webkit-scrollbar-thumb,
+.main::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+.main::-webkit-scrollbar-track {
+  background: #232323;
+}
+
+/* Hide number input spinner (Chrome, Safari, Edge, Opera) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide number input spinner (Firefox) */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* .responsiveMap {
+  width: 400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .responsiveMap {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .responsiveMap {
+    width: 800px;
+    margin: 0 auto;
+  }
+} */
+@media (min-width: 600px) and (max-width: 800px) {
+  .responsiveMap {
+    width: 600px;
+    margin: 0 auto;
+  }
+}

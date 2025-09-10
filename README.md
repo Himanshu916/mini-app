@@ -105,3 +105,7 @@ Now repeat the same flow with EVM chain:
 The issue appears to be isolated to Solana mints on Farcaster.
 
 The locking of NFT to the Farcaster wallet suggests a problem with token standards or Solana-specific configuration.
+
+# Note
+- Only need to refer PublicMinting.jsx Component and PublicMintModal.jsx components . 
+- can get the flow for code through Routes.jsx
